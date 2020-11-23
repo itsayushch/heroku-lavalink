@@ -17,7 +17,7 @@ class LavalinkBootstrap:
         Doing important stuff here
         """
 
-        self.download_command = f"curl -o Lavalink.jar https://ci.fredboat.com/repository/download/Lavalink_Build/8231:id/Lavalink.jar?guest=1"
+        self.download_command = f"curl -o Lavalink.jar https://ci.fredboat.com/repository/download/Lavalink_Build/8501:id/Lavalink.jar?guest=1"
         print(f"Download command: {self.download_command}")
 
         self.replace_port_command = 'sed -i "s|DYNAMICPORT|$PORT|" application.yml'
